@@ -34,7 +34,7 @@ Label(root, text="Enter data for QR Code:", font=("Arial", 12)).pack(pady=10)
 data_entry = Entry(root, width=40, font=("Arial", 12))
 data_entry.pack(pady=5)
 
-Button(root, text="Generate QR Code", command=generate_qr_code, font=("Arial", 12)).pack(pady=20, bg="#4CAF50", fg="white")
+Button(root, text="Generate QR Code", command=generate_qr_code, font=("Arial", 12)).pack(pady=20")
 
 
 root.mainloop()
